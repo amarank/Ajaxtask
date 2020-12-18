@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="overall pt-5">
+    <div class="">
+        <h5 class=" text-center"> Customer</h5>
+    </div>
+    <div class="container pt-4 ">
+                <div class="row ">
+                  <div class="col-sm-4 col-12 pt-4">
+                   <label for="fname">Customer Name <span class="text-danger">*</span></label>
+                   <input type="text" class="form-control" id="cName" placeholder="Customer Name" name="">
+                   <span id="sales" class="text-danger"></span>
+                  </div>
+                  <div class="col-sm-4 col-12 pt-4 ">
+                    <label for="fname"> Country<span class="text-danger">*</span></label><br> 
+                    <select type="text" class="form-control "  placeholder="Choose" id="ctry" name="">
+                      <option value="">Choose</option>
+                      <option value="1">INDIA</option>
+                      <option value="2">BRAZIL</option>
+                    </select>
+                    <span id="contN" class="text-danger"></span>
+                  </div>
+                  <div class="col-sm-4 col-12  pt-4 ">
+                   <label for="fname">Address 1 <span class="text-danger">*</span> </label>
+                   <input type="text" class="form-control" id="add" placeholder="Address 1 " name="">
+                   <span id="ads" class="text-danger"></span>
+                  </div>
+                  <div class="col-sm-4 col-12  pt-4 ">
+                    <label for="fname">Address 2 <span class="text-danger">*</span> </label>
+                    <input type="text" class="form-control" id="adrs" placeholder="Address 2" name="">
+                    <span id="ad2" class="text-danger"></span>
+                   </div>
+                   
+                    <div class="col-sm-4 col-12 pt-4">
+                      <label for="fname">Company Registration No <span class="text-danger">*</span></label>
+                      <input type="text" class="gg form-control" id="cRNo" placeholder="Company Registration No" name="">
+                      <span id="compNo" class="text-danger"></span>
+                     </div>
+                     <div class="col-sm-4 col-12 pt-4">
+                      <label for="fname">Zip Code <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="zCode" placeholder="Zip Code" name="">
+                      <span id="zipC" class="text-danger"></span>
+                     </div>
+                     <div class="col-sm-4 col-12 pt-4 ">
+                        <label for="fname">Currency <span class="text-danger">*</span></label><br> 
+                        <select type="text" class="form-control "  placeholder="Choose" id="cuCy" name="">
+                          <option value="">Choose</option>
+                          <option value="3">DOLLAR</option>
+                          <option value="4">POUNT</option>
+                        </select>
+                        <span id="curren" class="text-danger"></span>
+                      </div>
+                      <div class="col-sm-4 col-12 pt-4">
+                        <label for="fname">Tax Registration No <span class="text-danger">*</span></label>
+                        <input type="text" class="gg form-control" id="tRNo" placeholder="Tax Registration No" name="">
+                        <span id="taxR" class="text-danger"></span>
+                       </div>
+                       <div class="col-sm-4 col-12 pt-4 offset-md-9 justify-content-end">
+                        <button type="submit"  class="btn btn-primary my-2 " onclick="cust()">Submit</button>
+                        <button type="reset" class="btn btn-danger my-2 mx-2">Cancel</button>
+                      </div>
+                </div>
+    </div>
+    <script src="main.js"></script> 
+  </div>
+</body>
+</html>
+    

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>add Table</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="sales pt-5  text-center">
+        <h5 class=" text-center">Customer list</h5>
+        <a href="create.html"> <button type="reset" class="btn btn-success mt-3 my-2 mx-2">Add</button></a>
+    </div>
+    <div class="container pt-5">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Customer Name</th>
+                    <th>Country</th>
+                    <th>Address 1</th>
+                    <th>Edit/Delete</th>
+                </tr>
+            </thead>
+                <tbody class="text-dark" id="body"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script> 
+</body>
